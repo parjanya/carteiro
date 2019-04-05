@@ -10,4 +10,6 @@ A system for querying the brazilian post office tracking system.
 
 # Usage
 
-`(carteiro:rastreio "[tracking code]")` will hopefully spit all that happened to you parcel so far. Try `cu276167862IN` for instance.
+`(carteiro:rastreio "[tracking code]")` will hopefully spit all that happened to you parcel so far.
+
+Try `cu276167862IN` for instance.
