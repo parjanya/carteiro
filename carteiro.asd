@@ -10,7 +10,6 @@
 (defsystem "carteiro"
   :version "1"
   :author "Edgard Bikelis"
-  :mantainer "Edgard Bikelis"
   :license "MIT"
   :depends-on ("cl-ppcre"
                "drakma"
