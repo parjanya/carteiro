@@ -4,7 +4,9 @@ A system for querying the brazilian post office tracking system.
 
 # Installation
 
-`(quicklisp:quickload :carteiro)`
+For now, clone the repository on `~/quicklisp/local-projects/` and then load it by
+
+`(quicklisp:quickload :carteiro)`.
 
 (For `quicklisp`, check https://www.quicklisp.org/beta/.)
 
