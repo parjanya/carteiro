@@ -1,2 +1,3 @@
 # carteiro
-A library for querying the brazilian post office   tracking system.
+
+A system for querying the brazilian post office tracking system.
