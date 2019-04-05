@@ -1,15 +1,15 @@
 #|
   This file is a part of carteiro project.
-  Copyright (c) 2019 Edgard Bikelis (e.arrows@gmail.com)
+  Copyright (c) 2019 Edgard Bikelis (bikelis@gmail.com)
 |#
 
 #|
-  Author: Edgard Bikelis (e.arrows@gmail.com)
+  Author: Edgard Bikelis (bikelis@gmail.com)
 |#
 
 (defsystem "carteiro"
   :version "1"
-  :author "Edgard Bikelis"
+  :author "Edgard Bikelis <bikelis@gmail.com>"
   :license "MIT"
   :depends-on ("cl-ppcre"
                "drakma"
