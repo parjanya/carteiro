@@ -10,7 +10,7 @@
 (defsystem "carteiro"
   :version "1"
   :author "Edgard Bikelis <bikelis@gmail.com>"
-  :license "MIT"
+  :license "GPLv3"
   :depends-on ("cl-ppcre"
                "drakma"
                "lquery"
