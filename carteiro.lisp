@@ -32,8 +32,6 @@
 (defun get-element-by-class (node class)
   "Accepts the DOM root element (a PLUMP-DOM:ROOT object) containing the DOM representation of the page which contains the list of events.
 Returns a DOM:ELEMENT holding the table with the list of events."
-  (write 'aaaaaaa)(terpri)
-  (write node)
   (labels ((scanren (node)
              (loop for child across (plump:children node)
                    do (when (plump:element-p child)
@@ -62,7 +60,8 @@ For example,
 ]" str ""))
   (setq str (ppcre:regex-replace-all "	" str " "))
   (let* ((data (ppcre:all-matches-as-strings "../../...." str))
-	 (hora-e-lugar (ppcre:all-matches-as-strings "..:.. [^]*" str))
+	 (hora-e-lugar (ppcre:all-matches-as-strings "..:.. [^
+]*" str))
 	 (hora (ppcre:all-matches-as-strings "..:.." str))
 	 (lugar (ppcre:regex-replace-all
 		 (concatenate 'string
